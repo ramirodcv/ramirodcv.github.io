@@ -1,103 +1,53 @@
-li {
-    margin-bottom: 12px;
+body {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
+    font-family: Georgia, serif;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #222;
 }
-.black {
-    color: black;
+
+nav {
+    margin-bottom: 40px;
 }
-.main {
-    color: rgb(70, 70, 70);
-    font-size: 1.5em;
-    width: 90%;
-    margin: auto auto 0 auto;
-    font-size: 0.9em;
-}
-@media screen and (min-width: 50rem) {
-    .main {
-        width: 75%;
-        font-size: 1.2em;
-    }
-}
-@media screen and (min-width: 70rem) {
-    .main {
-        width: 60%;
-        font-size: 1.5em;
-    }
-}
-.nav {
-    width: 75%;
-    margin: auto auto 30px auto;
-    padding-bottom: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-bottom: 0.75px solid rgb(70, 70, 70);
-}
-.section-title {
-    font-weight: bold;
-    text-decoration: underline;
-    text-align: center;
-}
-.nav-section-title {
-    font-size: 1.25em;
-    color: rgb(70, 70, 70);
+
+nav a {
+    margin-right: 20px;
     text-decoration: none;
+    color: #555;
 }
-@media screen and (min-width: 50rem) {
-    .nav {
-        padding-bottom: 10px;
-    }
-    .nav-section-title {
-        font-size: 1.65em;
-    }
+
+nav a:hover {
+    text-decoration: underline;
 }
-@media screen and (min-width: 70rem) {
-    .nav-section-title {
-        font-size: 2em;
-    }
-}
-.home-div {
-    width: 45%;
-    text-align: center;
-}
-.research-div {
-    width: 10%;
-    text-align: center;
-}
-.other-div {
-    width: 45%;
-    text-align: center;
-}
-.center-text {
-    text-align: center;
-}
-.main-picture-section {
+
+.profile {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
+    gap: 30px;
+    align-items: flex-start;
+    margin-bottom: 30px;
 }
-.picture-div {
-    width: 50%;
+
+.profile img {
+    width: 150px;
+    border-radius: 4px;
 }
-.basic-info-div {
-    width: 50%;
+
+h1 {
+    font-size: 1.4em;
+    margin: 0 0 8px 0;
 }
-.main-img {
-    width: 60%;
-    padding-left: 20%;
-    padding-right: 20%;
+
+p {
+    margin: 0 0 1em 0;
+    font-size: 1.1em;
 }
-.email-img {
-    width: 40%;
-    vertical-align: middle;
+
+a {
+    color: #222;
 }
-@media screen and (min-width: 50rem) {
-    .email-img {
-        width: 35%;
-    }
-}
-@media screen and (min-width: 70rem) {
-    .email-img {
-        width: 30%;
-    }
+
+a:hover {
+    color: #555;
 }
